@@ -11,8 +11,8 @@ import java.util.ArrayList;
 
 public class MyClass {
 
-    private static int serverport = 5050;
-    private static ServerSocket serverSocket;
+    private static int serverport = 48763;
+    private static ServerSocket serverSocket = null;
 
     // 儲存每個client
     private static ArrayList<Socket> players = new ArrayList<>();
