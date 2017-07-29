@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class MyClass {
 
     private static int serverport = 48763;
-    private static ServerSocket serverSocket = null;
+    private static ServerSocket serverSocke;
 
     // 儲存每個client
     private static ArrayList<Socket> players = new ArrayList<>();
